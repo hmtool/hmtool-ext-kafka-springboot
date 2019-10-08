@@ -37,12 +37,12 @@ public class KafkaProperties {
     /**
      * thread pool use consumer...
      */
-    private final SpringThreadPool executor = new SpringThreadPool();
+    private SpringThreadPool executor = new SpringThreadPool();
 
     /**
      * kafka common property
      */
-    private final KafkaInfo info = new KafkaInfo();
+    private KafkaInfo info = new KafkaInfo();
 
     public KafkaProperties(){
         executor.setBeanName("kafkaThreadPool");

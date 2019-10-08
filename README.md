@@ -1,37 +1,32 @@
-# hmtool-ext-kafka-springboot
+<p align="center">
+elasticsearch-kafka-springboot 基于hmtool的扩展工具包
+</p>
+<p align="center">
+-- 主页：<a href="http://mhuang.tech/hmtool-ext-kafka-springboot">http://mhuang.tech/hmtool-ext-kafka-springboot</a>  --
+</p>
+<p align="center">
+    -- QQ群①:<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=6703688b236038908f6c89b732758d00104b336a3a97bb511048d6fdc674ca01"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="hmtool官方交流群①" title="hmtool官方交流群①"></a>
+</p>
+---------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#### 介绍
-kafka springboot 版本
-
-#### 软件架构
-软件架构说明
-
-
-#### 安装教程
-
-1. xxxx
-2. xxxx
-3. xxxx
-
-#### 使用说明
-
-1. xxxx
-2. xxxx
-3. xxxx
-
-#### 参与贡献
-
-1. Fork 本仓库
-2. 新建 Feat_xxx 分支
-3. 提交代码
-4. 新建 Pull Request
+## 简介
+hmtool-ext-kafka-springboot 是一个基于sprringboot和hmtool-ext-kafka 封装的便捷工具包、简单几行代码即可对kafka进行操作
 
 
-#### 码云特技
+## 安装
 
-1. 使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2. 码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3. 你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4. [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5. 码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6. 码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+### MAVEN
+在pom.xml中加入
+```
+    <dependency>
+        <groupId>tech.mhuang</groupId>
+        <artifactId>hmtool-ext-kafka-springboot</artifactId>
+        <version>${last.version}</version>
+    </dependency>
+```
+### 非MAVEN
+下载任意链接
+- [Maven中央库1](https://repo1.maven.org/maven2/tech/mhuang/hmtool-ext-kafka-springboot/)
+- [Maven中央库2](http://repo2.maven.org/maven2/tech/mhuang/hmtool-ext-kafka-springboot/)
+> 注意
+> hmtool只支持jdk1.8以上的版本

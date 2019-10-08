@@ -9,11 +9,11 @@
     <name>hmtool-ext-kafka-springboot</name>
     <url>http://hmtool-ext-kafka-springboot.mhuang.tech</url>
     <description>基于springboot的kafka封装</description>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
 
     <properties>
-        <hmtool.ext.kafka.version>1.0.0</hmtool.ext.kafka.version>
-        <hmtool.ext.springboot.version>1.0.0</hmtool.ext.springboot.version>
+        <hmtool.ext.kafka.version>1.1.0</hmtool.ext.kafka.version>
+        <hmtool.ext.springboot.version>1.1.0</hmtool.ext.springboot.version>
         <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
